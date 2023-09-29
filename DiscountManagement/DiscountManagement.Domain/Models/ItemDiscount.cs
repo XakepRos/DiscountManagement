@@ -16,7 +16,7 @@ namespace DiscountManagement.Domain.Models
         public int DiscountRuleId { get; set; }
         public virtual DiscountRule DiscountRule { get; set; }
 
-        public int ItemId { get; set; }
-        public virtual ItemDiscount Item { get; set; }
+        //public int ItemId { get; set; }
+        //public virtual ItemDiscount Item { get; set; }
     }
 }
